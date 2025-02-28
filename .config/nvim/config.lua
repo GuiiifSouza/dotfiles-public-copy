@@ -4,6 +4,9 @@
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
 --
+
+vim.opt.mouse = ""
+
 lvim.builtin.which_key.mappings["f"] = {
   name = "Find",
   f = { "<cmd>Telescope find_files<CR>", "Find File" },
