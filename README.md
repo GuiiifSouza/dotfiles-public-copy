@@ -57,6 +57,7 @@ sudo apt install exuberant-ctags
 ```
 sudo apt install ripgrep
 LV_BRANCH='release-1.4/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.4/neovim-0.9/utils/installer/install.sh)
+export PATH=$HOME/.local/bin:$PATH
 ```
 
 # Cheatsheets - Frequently used commands
