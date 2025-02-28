@@ -11,6 +11,9 @@ I use Zsh as my default shell, Oh-my-zsh for plugins and Startship for my prompt
 - you may need to tweak some settings and install extra dependencies to get it to work in your environment.  Refer to the documentation for Zsh, Oh-my-zsh and Startship prompt.
 
 ```
+#Zsh
+sudo apt install zsh
+
 #Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
