@@ -14,3 +14,16 @@ lvim.builtin.which_key.mappings["f"] = {
   b = { "<cmd>Telescope buffers<CR>", "Find Buffer" },
   h = { "<cmd>Telescope help_tags<CR>", "Help" },
 }
+
+
+-- Enable multiple cursors using vim-visual-multi
+lvim.plugins = {
+  { "mg979/vim-visual-multi", branch = "master" }
+}
+
+-- Set Ctrl + N to select occurrences (multi-cursor mode)
+-- Press Ctrl + N to select the next match (similar to VSCode Ctrl + D)
+-- Press Ctrl + Up/Down to move between cursors
+-- Press Shift + Arrow to extend selection
+-- Press q to skip a match
+-- Press Enter to exit multi-cursor mode
