@@ -3,9 +3,6 @@
 -- Video Tutorials: https://www.youtube.com/watch?v=sFA9kX-Ud_c&list=PLhoH5vyxr6QqGu0i7tt_XoVK9v-KvZ3m6
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
---
-
-vim.opt.mouse = ""
 
 lvim.builtin.which_key.mappings["f"] = {
   name = "Find",
@@ -15,10 +12,10 @@ lvim.builtin.which_key.mappings["f"] = {
   h = { "<cmd>Telescope help_tags<CR>", "Help" },
 }
 
-
 -- Enable multiple cursors using vim-visual-multi
 lvim.plugins = {
-  { "mg979/vim-visual-multi", branch = "master" }
+  { "mg979/vim-visual-multi", branch = "master" },
+  {'tribela/vim-transparent'}
 }
 
 -- Set Ctrl + N to select occurrences (multi-cursor mode)
